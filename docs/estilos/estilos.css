@@ -1,41 +1,51 @@
 main {
   border: 2px solid violet;
+  border-radius: 1em;
   height: 630px;
   width: 1100px;
   margin: auto;
-
+  
+  
 }
 header{
     border: 1px solid blue; 
+    border-radius: 1em;
     height: 100px;
+    text-align: center;
 
 }
 nav{
     border: 1px solid rgb(95, 3, 214); 
+    border-radius: 1em;
     height: 80px;
     margin: 5px 0px 5px 0px;
 }
 section {
     border: 1px solid blue; 
+    border-radius: 1em;
     height: 363px;
     padding: 5px ;
 }
 footer {
     border: 1px solid rgb(95, 3, 214); 
-    height: 80px; 
+    border-radius: 1em;
+    height: 60px; 
 }
-aside {
+article { 
     border: 1px solid rgb(95, 3, 214); 
+    border-radius: 1em;
     display: 50px;
-    height: 359px;
+    height: 180px;
     width: 500px;
     float: left;
 }
-article { 
+aside {
     border: 1px solid rgb(238, 130, 238);
-    height: 118px;
+    border-radius: 1em;
+    height: 356px;
     width: 570px;
     float: right;
+    
 }
 
 ul li {
@@ -43,4 +53,9 @@ ul li {
     width: 100px;
     display: inline-block;
     margin-right: 20px;
+    font-family: 'Bitter', serif;
+    font-family: 'Crimson Text', serif;
+}
+header img {
+    height: 100px;
 }
