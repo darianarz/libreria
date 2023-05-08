@@ -8,14 +8,17 @@ main {
 header{
     border: 1px solid blue; 
     height: 100px;
+
 }
 nav{
     border: 1px solid rgb(95, 3, 214); 
     height: 80px;
+    margin: 5px 0px 5px 0px;
 }
 section {
     border: 1px solid blue; 
     height: 363px;
+    padding: 5px ;
 }
 footer {
     border: 1px solid rgb(95, 3, 214); 
@@ -29,10 +32,15 @@ aside {
     float: left;
 }
 article { 
-    border: 1px solid violet;
+    border: 1px solid rgb(238, 130, 238);
     height: 118px;
     width: 570px;
     float: right;
 }
 
-        
+ul li {
+    border: 1px solid violet;
+    width: 100px;
+    display: inline-block;
+    margin-right: 20px;
+}
