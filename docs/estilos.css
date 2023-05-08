@@ -10,7 +10,7 @@ header{
     height: 100px;
 }
 nav{
-    border: 1px solid orangered; 
+    border: 1px solid rgb(95, 3, 214); 
     height: 80px;
 }
 section {
@@ -18,6 +18,21 @@ section {
     height: 363px;
 }
 footer {
-    border: 1px solid orangered; 
+    border: 1px solid rgb(95, 3, 214); 
     height: 80px; 
 }
+aside {
+    border: 1px solid rgb(95, 3, 214); 
+    display: 50px;
+    height: 359px;
+    width: 500px;
+    float: left;
+}
+article { 
+    border: 1px solid violet;
+    height: 118px;
+    width: 570px;
+    float: right;
+}
+
+        
