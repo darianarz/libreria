@@ -32,7 +32,7 @@ footer {
     height: 60px; 
 }
 article { 
-    border: 1px solid rgb(95, 3, 214); 
+    border: 1px solid rgb(243, 57, 1); 
     border-radius: 1em;
     display: 50px;
     height: 180px;
@@ -52,11 +52,25 @@ ul li {
     border: 1px solid violet;
     width: 100px;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 70px;
     font-family: 'Bitter', serif;
     font-family: 'Crimson Text', serif;
     border-radius: 1em;
+    
+    
 }
 header img {
+    border-radius: 1em;
     height: 100px;
+    width: 1100px;
+    
 }
+article img {
+    height: 160px;
+    width: 170px;
+    border-radius: 1em;
+    float: right; 
+    padding: 10px;
+    
+
+} 
